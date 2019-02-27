@@ -1,4 +1,5 @@
-Data016_100ms.txt: This is the experimental data used in our paper.
+Data016_100ms.txt: This is the experimental data used in our paper:
+Zhou, B., Moorman, D. E., Behseta, S., Ombao, H., and Shahbaba, B. (2016), A Dynamic Bayesian Model for Characterizing Cross-Neuronal Interactions During Decision Making, Journal of the American Statistical Association, 111 (514), 459-471.
 
 Main.m: This is the main function that calls all the other functions required for inference. 
 
