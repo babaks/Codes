@@ -1,0 +1,1 @@
+These are the codes and datasets used in our paper “Split Hamiltonian Monte Carlo.” For more details please see our paper at: https://link.springer.com/article/10.1007/s11222-012-9373-1
