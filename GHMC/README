@@ -1,0 +1,11 @@
+README for paper "Bayesian Inference on Two Matrix Manifolds for Linear Dimensionality Reduction".
+
+All models are coded in the R language. To redo any parts of the analysis:
+
+1) Set working directory in R to the directory containing this README, e.g.:
+>> setwd("~/Documents/grassmann")
+
+2) Source "setup.R" to load the needed R packages. All can be installed via CRAN and bioconductor, except for the "rstan" package (http://mc-stan.org). See the STAN website for installation instructions.
+>> source("setup.R")
+
+3) Each simulation is contained in its separate directory under "models/". Run the relevant script to redo the MCMC simulation or create the plots.
