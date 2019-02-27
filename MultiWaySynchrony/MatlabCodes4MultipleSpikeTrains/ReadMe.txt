@@ -1,4 +1,5 @@
-data016.txt: This is the experimental data used in our paper.
+data016.txt: This is the experimental data used in our paper:
+Shahbaba, B., Zhou, B., Lan, S., Ombao, H., Moorman, D., and Behseta, S., A Semiparametric Bayesian Model for Detecting Synchrony Among Multiple Neurons, Neural Computation, 26(9), 2025-51.
 
 Main.m: this is the main MATLAB code that calls the sub-functions
 CopulaSHMC.m: Performs MCMC calling SphHMC.m, SamplerLatent.m, and SamplerTheta.m
