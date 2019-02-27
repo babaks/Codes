@@ -1,0 +1,1 @@
+These are the codes for our paper, “Nonlinear Models Using Dirichlet Process Models.” For more details please see our paper at: http://www.jmlr.org/papers/volume10/shahbaba09a/shahbaba09a.pdf.
