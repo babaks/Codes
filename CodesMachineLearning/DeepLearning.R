@@ -1,5 +1,5 @@
-require(pROC)
 require(h2o)
+require(pROC)
 require(data.table)
 h2o.init(nthreads = -1)
 
@@ -23,6 +23,7 @@ x.indep <- 1:10 # Indeces of the predictors
 y.dep <- 11 # Index of the outcome variable
 
 # Training the deep learning model with 5 hidden layers
+# For autoencoder, use the option "autoencoder = TRUE" and remove "y=y.dep"
 dlearning.mlp <- h2o.deeplearning(y = y.dep,
                                   x = x.indep,
                                   training_frame = train,
